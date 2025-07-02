@@ -597,12 +597,12 @@ footer {
 
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url(../fuentes/Roboto-Bold.ttf);
+    src: url(./fuentes/Roboto-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Roboto-regular';
-    src: url(../fuentes/Roboto-Regular.ttf);
+    src: url(./fuentes/Roboto-Regular.ttf);
 }
 
 /* Responsive */
