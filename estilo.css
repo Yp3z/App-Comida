@@ -592,17 +592,17 @@ footer {
 
 @font-face {
     font-family: 'Roboto-Black';
-    src: url(../Fuentes/Roboto-Black.ttf);
+    src: url(./fuentes/Roboto-Black.ttf);
 }
 
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url(../Fuentes/Roboto-Bold.ttf);
+    src: url(../fuentes/Roboto-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Roboto-regular';
-    src: url(../Fuentes/Roboto-Regular.ttf);
+    src: url(../fuentes/Roboto-Regular.ttf);
 }
 
 /* Responsive */
