@@ -1,0 +1,828 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header */
+
+.encabezado {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto-Bold';
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.boton-registro {
+    width: 45%;
+    height: 7vh;
+    background-color: #e8505b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    font-family: 'Roboto-Bold';
+}
+
+/* Formulario */
+
+
+.container-1 {
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.formulario-1 {
+    width: 35%;
+    height: 80vh;
+    background-color: #e8505b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    padding: 2rem;
+}
+
+.container-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-principal {
+    color: white;
+    font-family: 'Roboto-Regular';
+    font-size: 35px;
+    text-align: center;
+}
+
+.form2 {
+    width: 35%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.form3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.imagen-repartidor {
+    width: 37%;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-2 {
+    display: flex;
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.formulario {
+    width: 500px;
+    height: 50px;
+    border: none;
+    text-align: left;
+}
+
+.formulario-2 {
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 1rem;
+    background-color: #455a64;
+    color: white;
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+}
+
+/* Funcionamiento */
+
+h2 {
+    color: white;
+    font-family: 'Roboto-Regular';
+    font-size: 35px;
+}
+
+span {
+    gap: 1rem;
+    font-size: 1rem;
+    font-family: 'Roboto-Regular';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 {
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+}
+
+
+.funcionamiento {
+    width: 100%;
+    height: 100vh;
+    background-color: #e8505b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ola {
+    width: 100%;
+    height: 35vh;
+}
+
+.contenedor-imagenes {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.pasos {
+    width: 70%;
+    height: 100%;
+
+}
+
+.img-paso {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Testimonios */
+
+.container-3 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 15%;
+}
+
+.container-de-testimonios {
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimoniales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+.cuadro-testimonios {
+    background-color: #455a64;
+    width: 60%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.testimonio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    color: white;
+}
+
+.testimonio-todo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.foto-testimonio {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.estrellas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    color: white;
+}
+
+.testi-estrellas {
+    width: 100%;
+}
+
+blockquote {
+    display: flex;
+    padding: 1rem;
+}
+
+
+/* Restaurantes Favoritos */
+
+.container-4 {
+    margin-top: 10%;
+    width: 100%;
+    height: 230vh;
+    background-color: #eceeef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ensaladas-titulo {
+    padding: 2rem;
+    color: #455a64;
+    font-size: 35px;
+    font-family: 'Roboto-Bold';
+}
+
+.pide-ensaladas {
+    width: 80%;
+    height: 250vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pide-ensaldas2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.logo-ensalada {
+    width: 25%;
+}
+
+.texto-ensalada {
+    font-size: 15px;
+    font-family: 'Roboto-Regular';
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ensalada-green {
+    font-size: 20px;
+    font-family: 'Roboto-Bold';
+    color: #e8505b;
+}
+
+.ensalada {
+    width: 90%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 1rem;
+    box-shadow: black;
+    border-radius: 1rem;
+}
+
+.estrellas-ensalada {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Gana Dinero */
+
+.container-5 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dinero-todo {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2%;
+}
+
+.titulo-dinero {
+    color: #455a64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto-Bold';
+}
+
+.container-foto-dinero {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.foto-dinero {
+    width: 100%;
+}
+
+.texto-dinero {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.textos-todo-dinero {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.lorem-dinero {
+    color: rgb(116, 116, 116);
+    font-size: 1rem;
+    font-family: 'Roboto-Regular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.mas-informacion {
+    width: 100%;
+    height: 20vh;
+}
+
+.boton-dinero {
+    width: 45%;
+    height: 7vh;
+    background-color: #e8505b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    font-size: 20px;
+    font-family: 'Roboto-Bold';
+    text-decoration: none;
+}
+
+/* Apps */
+
+.container-6 {
+    background-color: #eceeef;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.foto-app {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interfaz {
+    width: 35%;
+}
+
+.apps {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titulo-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Roboto-Regular';
+    color: #455a64;
+}
+
+.texto-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Roboto-Regular';
+
+}
+
+.android-ios {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.foto-app {
+    width: 80%;
+}
+
+/* Nosotros */
+
+.container-7 {
+    background-color: #455a64;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.titulo-nos-nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto-Bold';
+}
+
+.texto-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Roboto-Regular';
+    flex-direction: column;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.contacto {
+    width: 30%;
+    height: 35vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Roboto-Bold';
+
+}
+
+.boton-nosotros {
+    font-family: 'Roboto-Regular';
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #e8505b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+}
+
+
+/* Fuentes */
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../Fuentes/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../Fuentes/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url(../Fuentes/Roboto-Regular.ttf);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 500px) {
+
+    /* HEADER */
+    .encabezado {
+        flex-wrap: wrap;
+        height: 35vh;
+        width: 100%;
+        gap: 1vh;
+    }
+
+    .logo {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .navegacion {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .boton-registro {
+        width: 80%;
+        height: 6vh;
+    }
+
+    /* FORMULARIO */
+    .container-1 {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .formulario-1 {
+        width: 100%;
+        height: 60vh;
+        gap: 3vh;
+    }
+
+    .form2 {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .formulario,
+    .formulario-2 {
+        width: 100%;
+    }
+
+    .imagen-repartidor {
+        margin-top: 50px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .repartidor {
+        width: 70%;
+        flex-wrap: wrap;
+    }
+
+    /* FUNCIONAMIENTO */
+
+
+    .ola{
+        margin-top: 50%;
+        width: 100%;
+        height: 83px;
+        position: relative;
+        bottom: 0;
+    }
+
+    .funcionamiento{
+        width: 100%;
+        height: 60%;
+    }
+
+    .img-paso {
+        width: 70%;
+    }
+
+    .pasos {
+        width: 100%;
+        height: auto;
+    }
+
+    /* TESTIMONIOS */
+    .container-3 {
+        height: 50%;
+    }
+
+    .cuadro-testimonios {
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+    }
+
+    .container-de-testimonios {
+        flex-wrap: wrap;
+        width: 80%;
+        height: 45%;
+        padding: 1vh;
+    }
+
+    .testimonio-todo {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 1vh;
+    }
+
+    .foto-testimonio {
+        width: 100px;
+    }
+
+    /* RESTAURANTES FAVORITOS */
+    .container-4 {
+        height: auto;
+        padding: 2vh;
+    }
+
+    .pide-ensaladas {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80%;
+        height: 50%;
+    }
+
+    .ensalada {
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .logo-ensalada {
+        width: 40%;
+    }
+
+    /* GANA DINERO */
+    .container-5 {
+        height: auto;
+        padding: 2vh;
+    }
+
+    .dinero-todo {
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        gap: 2vh;
+    }
+
+    .container-foto-dinero,
+    .texto-dinero {
+        width: 100%;
+    }
+
+    .foto-dinero {
+        width: 100%;
+    }
+
+    .textos-todo-dinero {
+        padding: 1vh;
+    }
+
+    .boton-dinero {
+        width: 90%;
+        height: 6vh;
+    }
+
+    /* APPS */
+    .container-6 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        padding: 2vh;
+    }
+
+    .foto-app,
+    .apps {
+        width: 100%;
+        height: auto;
+    }
+
+    .interfaz {
+        width: 70%;
+    }
+
+    .android-ios {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* NOSOTROS */
+    .container-7 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        gap: 2vh;
+        padding: 2vh;
+    }
+
+    .contacto {
+        width: 90%;
+        height: auto;
+    }
+
+    /* FOOTER */
+    footer {
+        height: auto;
+        padding: 2vh;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
